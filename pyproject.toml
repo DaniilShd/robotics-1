@@ -1,0 +1,19 @@
+[project]
+name = "homework-1"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "DaniilShd",email = "ds_const@mail.ru"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "opencv-python (>=4.12.0.88,<5.0.0.0)",
+    "numpy (>=1.21,<2.3.0)",
+    "matplotlib (>=3.10.7,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
